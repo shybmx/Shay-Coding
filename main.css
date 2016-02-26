@@ -1,0 +1,97 @@
+header{
+    position: fixed;
+    z-index: 10;
+    background-color: #000;
+    width: 100%;
+    top: 0px;
+    border-bottom: 1px solid #fff;
+}
+
+html{
+    background-color: #000;
+    overflow: visible;
+    margin: 0;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+body{
+    position: relative;
+    top: 30%; 
+    background-color: #000;
+}
+
+ul{
+    width: 900px;
+    padding: 10px;
+    margin: 0px auto 0px auto;
+    text-align: center;
+}
+
+li{
+    display: inline;
+    margin: 0px 3px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+a{
+    color: #fff;
+    text-decoration-color: none;
+}
+
+p{
+    color: #fff;
+    font-size: 20px;
+}
+
+.homeplaceright{
+    float: right;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.socialbuttons{
+    float: right;
+    padding: 10px;
+}
+
+h1{
+    color: #fff;
+    text-align: center;
+}
+
+.portfolio{
+    text-align: center;
+    align-content: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.aboutmepage{
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.homepagetext{
+    margin-right: 50%;
+}
+
+.languages{
+    text-align: center;
+}
+
+.portfolioright{
+    margin-left: 55%;
+    align-content: center;
+    text-align: center;
+    position: absolute;
+}
+
+.portfolioleft{
+    margin-right: 55%;
+    align-content: center;
+    text-align: center;
+    position: absolute;
+}
